@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content="Karan Singh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Medilab.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>MediLab</title>    
+</head>
+<body>
+    <div id="UpperBody">
+    <Nav>
+        <a href="#">Medilab<sup>+</sup></a>
+        <div id="TopbarRight">
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Testimonial</a>
+            <a href="#">Contact</a> 
+        </div>
+    </Nav>
+<!-------------------Content for the upper body expect nav-------------->    
+        <div id="Medilab">
+            <h1 id="Head1">Medilab<sup>+</sup></h1>
+            <h2 id="Head2">HEALTHCARE AT YOUR DESK !!</h2>
+            <P id="P1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Eos aut vel molestias cupiditate delectus, ipsa sequi in.<br>adipisicing elit. Eos aut vel molestias cupiditate.</P>
+            <button id="Button">Make an Appointment</button><br>
+            <p id="DownArrow"><i class="arrow down"></i></p>
+        </div>
+    </div>
+<!----------------------Content starting for the LowerBody-------------------------->    
+    <div id="LowerBody">
+        <div id="OurService">
+            <h2>Our Service</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis omnis itaque deleniti architecto facilis officia autem voluptatem fugiat magni nemo? 
+            </p>
+        </div>
+    <!------------------------24 hour Services---------->
+        <div id="Hour">
+            <h3>
+            <i class="fa fa-stethoscope" style="font-size:38px;color:cyan"></i><br>24 Hour Support
+           </h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, suscipit labore illo incidunt distinctio earum repudiandae veritatis porro est voluptatum explicabo nobis odio neque. Ratione eaque id hic est asperiores?</p>
+        </div>
+    <!--------------------------@4 hour Services---------->
+        <div id="Medical">
+            <h3>
+            <i class="fa fa-user-md" style="font-size:38px;color:cyan"></i><br>Medical Counseling
+            </h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam in saepe illo exercitationem consectetur, asperiores atque velit non delectus possimus? Unde sint fuga alias, explicabo ipsam ex eius quae cupiditate.</p>
+        </div><br>
+    <!--------------------Emergency ---------------------->    
+        <div id="Emergency">
+            <h3>
+            <i class="fa fa-ambulance" style="font-size:38px;color:cyan"></i><br>Emergency Services
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam impedit provident earum inventore? Optio error dolore quasi adipisci. Eligendi beatae voluptatum officiis culpa, ex ipsam iusto illum natus. Tenetur!</p>
+        </div>
+    <!-------------------HealthCare---------------------->    
+        <div id="Healthcare">
+            <h3>
+            <i class="fa fa-medkit" style="font-size:38px;color:cyan"></i><br>Premium Healthcare
+            </h3>  
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed rerum voluptates officiis! Quibusdam magnam provident, debitis facilis quis non assumenda cumque quod voluptas earum praesentium, libero ipsam reprehenderit repudiandae qui.</p>
+        </div>
+    </div>
+    <!------------------------Content start fro the Footer section----------------------->
+    <footer>
+        <div id="Footer1">
+            <h3>Emergency Case</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aut consectetur iure, ad ut beatae deserunt. Mollitia impedit alias ex repudiandae sit recusandae architecto labore!</p>
+        </div>
+        <div id="Footer2">
+            <h3>Emergency Case</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aut consectetur iure, ad ut beatae deserunt. Mollitia impedit alias ex repudiandae sit recusandae architecto labore!</p>
+        </div>
+        <div id="Footer3">
+            <h3>Emergency Case</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aut consectetur iure, ad ut beatae deserunt. Mollitia impedit alias ex repudiandae sit recusandae architecto labore!</p>
+        </div>
+    </footer>
+
+
+    <script>
+        //// Code for shows the Element of Documnent in JavaScript ///
+        console.log(document.documentElement);
+        //// Code for Show the body Element ///
+        console.log(document.body);
+        // Traversal of Body
+        for(node of document.body.children)
+        console.log(node);
+        /// Code for the body first and Last Element ///
+       // console.log(document.body.firstElementchild);
+       // console.log(document.body.lastElementchild);
+
+       // Code for the Siblings 
+       let upperSibling= document.body.children[0];
+       console.log(upperSibling);
+       let first=upperSibling.children[0];
+       console.log(first.textContent);
+
+    </script>
+</body>
+</html>
